@@ -1,0 +1,15 @@
+Questions Assignment 6, IT2805, Erik Liodden
+
+1. 0.1 + 0.2 === 0.3 because floatingpoint presision makes it impossible to
+   store the number 0.1, 0.2 and 0.3 exactly. 
+2. The 'method' attribute defines how the form are submitted to the webserver.
+   Post method will send the form as a separeate package, while the Get method
+   will submit the form as part of the url.
+3. See Question 2. One of the advantages of GET is that the completed form can
+   be saved and reused later (eg. a Google search.). However, Get should not be
+   used for forms containing sensitive data, like passwords etc.
+4. HTML5/JavaScript are client side validation. Never trust the user. Client
+   side validation can be bypassed by the user before the form is submitted to
+   the server.
+5. If the input on that particular field is expected to be sufficentily long,
+   like a contact form or a facebook-post.

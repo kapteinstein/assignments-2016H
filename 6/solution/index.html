@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Norwegian Tax Administration - Tax form</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+
+    <body>
+        <form id="superForm" action="http://folk.ntnu.no/michaedm/norwegian-tax-administration/receive.php" method="post">
+
+          <div>
+            <label for="Real name">Real name:</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div>
+            <label for="Gender">Gender:</label>
+            <select name="gender" id="gender" required />
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div>
+            <label for="E-Mail">E-Mail:</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div>
+            <label for="Birthdate">Birthdate:</label>
+            <input type="date" name="birthdate" id="birthdate" max="1987-12-31" 
+            required />
+          </div>
+          <div>
+            <label for="Hero name">Hero name:</label>
+            <input type="text" name="hero" id="hero" required />
+          </div>
+          <div>
+            <label for="Do you wear spandex?">Do you wear spandex?</label>
+            <input type="checkbox" name="spandex" id="spandex" />
+          </div>
+          <div>
+            <label for="Strength">Strength:</label>
+            <input type="number" name="strenght" id="strenght" max="10" min="1"
+            required />
+          </div>
+          <div>
+            <label for="Speed">Speed:</label>
+            <input type="number" name="speed" id="speed" max="10" min="1"
+            required />
+          </div>
+          <div>
+            <label for="Intelligence">Intelligence:</label>
+            <input type="number" name="intelligence" id="intelligence" max="10"
+            min="1" required />
+          </div>
+          <div>
+            <label for="Income">Income:</label>
+            <input type="number" name="income" id="income" min="0" placeholder="0" required />
+          </div>
+          <div>
+            <label for="Wealth">Wealth</label>
+            <input type="number" name="wealth" id="wealth" placeholder="0" min="0" required />
+          </div>
+          <div>
+            <label for="Tax">Tax:</label>
+            <input type="number" name="tax" id="tax" value="" disabled/>
+          </div>
+          <div>
+            <input type="submit" name="submit" id="submit" value="submit tax form"
+             />
+          </div>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
