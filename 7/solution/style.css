@@ -1,0 +1,4 @@
+li { list-style-type: none; text-decoration: none; }
+span { padding-left: 10px; }
+.testklasse:checked + span { color: #AAA; text-decoration: line-through; }
+#output { padding: 10px; }
