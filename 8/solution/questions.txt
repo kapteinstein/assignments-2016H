@@ -1,0 +1,21 @@
+Questions Assignment 8
+
+1. Hvis jeg forstod spørsmålet rett, så kan vi velge mellom: "2d", "webgl",
+   "webgl2" og "bitmaprenderer".
+
+
+2. Jeg ville tegnet en sirkel og fyllt den med farge.
+
+    var context = canvas.getContext('2d');
+    context.arc(x_at_center, y_at_center, radius, 0, 2 * Math.PI);
+    context.fill();
+
+
+3. Ved å bruke liste.filter:
+
+    const countries = ['Norway', 'Sweden',  'Denmark', 'New Zealand'];
+    let countriesStartingWithN = countries.filter(function(country){
+      return(country.startsWith('N'))
+    })
+
+
